@@ -1,10 +1,12 @@
 {
   "recommendations": [
+    "bradlc.vscode-tailwindcss",
     "davidanson.vscode-markdownlint",
     "dbaeumer.vscode-eslint",
     "dotenv.dotenv-vscode",
     "editorconfig.editorconfig",
     "redhat.vscode-yaml",
+    "Vue.volar",
     "yoavbls.pretty-ts-errors"
   ]
 }
