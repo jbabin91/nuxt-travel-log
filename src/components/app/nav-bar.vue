@@ -5,7 +5,8 @@
         daisyUI
       </NuxtLink>
     </nav>
-    <div class="navbar-end">
+    <div class="navbar-end flex gap-4">
+      <AppThemeToggle />
       <button class="btn btn-accent">
         Sign In With GitHub
         <Icon name="tabler:brand-github" size="24" />
