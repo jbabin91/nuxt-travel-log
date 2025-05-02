@@ -1,0 +1,12 @@
+node_modules
+.output
+
+.github
+.husky
+.vscode
+
+.lintstagedrc.js
+eslint.config.js
+.npmrc
+.nvmrc
+README.md
