@@ -6,7 +6,9 @@
           Hello there
         </h1>
         <p class="py-6">
-          Keep track of your travels and adventures with this simple travel log app. Add locations, photos, and notes to create a digital journal of your journeys.
+          Keep track of your travels and adventures with this simple travel log
+          app. Add locations, photos, and notes to create a digital journal of
+          your journeys.
         </p>
         <button class="btn btn-accent">
           Sign In With GitHub
