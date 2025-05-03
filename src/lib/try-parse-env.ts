@@ -22,6 +22,7 @@ export function tryParseEnv<T extends ZodRawShape>(
     }
     else {
       console.error(error);
+      throw error;
     }
   }
 }
