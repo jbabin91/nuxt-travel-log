@@ -1,5 +1,6 @@
 import { int, sqliteTable, text } from "drizzle-orm/sqlite-core";
 
+import { user } from "./auth";
 import { locationLog } from "./location-log";
 
 export const locationLogImage = sqliteTable("location_log_image", {
@@ -8,6 +9,9 @@ export const locationLogImage = sqliteTable("location_log_image", {
   locationLogId: int()
     .notNull()
     .references(() => locationLog.id, { onDelete: "cascade" }),
+  userId: int()
+    .notNull()
+    .references(() => user.id, { onDelete: "cascade" }),
   createdAt: int()
     .notNull()
     .$default(() => Date.now()),

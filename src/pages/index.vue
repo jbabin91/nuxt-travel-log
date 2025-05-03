@@ -1,3 +1,9 @@
+<script setup lang="ts">
+const runtimeConfig = useRuntimeConfig();
+
+console.error("BETTER_AUTH_URL", runtimeConfig.public.betterAuthUrl);
+</script>
+
 <template>
   <div class="hero bg-base-300 container mx-auto mt-4">
     <div class="hero-content text-center min-h-96">
