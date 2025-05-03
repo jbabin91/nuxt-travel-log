@@ -1,7 +1,5 @@
 import tailwindcss from "@tailwindcss/vite";
 
-import { env } from "./src/lib/env";
-
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   srcDir: "src/",
@@ -20,9 +18,5 @@ export default defineNuxtConfig({
   colorMode: {
     dataValue: "theme",
   },
-  runtimeConfig: {
-    public: {
-      betterAuthUrl: env.BETTER_AUTH_URL,
-    },
-  },
+
 });
