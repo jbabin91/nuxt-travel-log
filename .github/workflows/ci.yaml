@@ -16,6 +16,9 @@ jobs:
 
       - name: Setup and Install dependencies
         uses: ./.github/actions/setup
+        env:
+          TURSO_DATABASE_URL: ${{ secrets.TURSO_DATABASE_URL }}
+          TURSO_AUTH_TOKEN: ${{ secrets.TURSO_AUTH_TOKEN }}
 
       - name: Static Analysis
         uses: ./.github/actions/static-analysis
