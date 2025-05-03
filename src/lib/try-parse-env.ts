@@ -8,7 +8,8 @@ export function tryParseEnv<T extends ZodRawShape>(
   buildEnv: Record<string, string | undefined> = process.env,
 ) {
   try {
-    EnvSchema.parse(buildEnv);
+    const parsedEnv = EnvSchema.parse(buildEnv);
+    return parsedEnv;
   }
   catch (error) {
     if (error instanceof ZodError) {
