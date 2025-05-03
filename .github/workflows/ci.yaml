@@ -10,15 +10,15 @@ jobs:
   branch-checks:
     name: Branch Checks
     runs-on: ubuntu-latest
+    env:
+      TURSO_DATABASE_URL: ${{ secrets.TURSO_DATABASE_URL }}
+      TURSO_AUTH_TOKEN: ${{ secrets.TURSO_AUTH_TOKEN }}
     steps:
       - name: Checkout Source Code
         uses: actions/checkout@v4
 
       - name: Setup and Install dependencies
         uses: ./.github/actions/setup
-        env:
-          TURSO_DATABASE_URL: ${{ secrets.TURSO_DATABASE_URL }}
-          TURSO_AUTH_TOKEN: ${{ secrets.TURSO_AUTH_TOKEN }}
 
       - name: Static Analysis
         uses: ./.github/actions/static-analysis
