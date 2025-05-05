@@ -2,7 +2,7 @@
   <header class="navbar bg-primary text-primary-content">
     <nav class="navbar-start">
       <NuxtLink to="/" class="btn btn-ghost text-xl">
-        daisyUI
+        Travel Log
       </NuxtLink>
     </nav>
     <div class="navbar-end flex gap-4">
