@@ -22,6 +22,9 @@ logs
 .env
 .env.*
 !.env.example
+!.env.project
+!.env.vault
+.flaskenv*
 
 # Local db files
 local.db*
