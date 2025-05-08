@@ -14,6 +14,9 @@ export const useLocationStore = defineStore("useLocationStore", () => {
         href: "#",
       }));
     }
+    else {
+      sidebarStore.sidebarItems = [];
+    }
     sidebarStore.loading = status.value === "pending";
   });
 
