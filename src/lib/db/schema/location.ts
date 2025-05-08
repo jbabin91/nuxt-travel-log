@@ -1,4 +1,4 @@
-import { int, real, sqliteTable, text } from "drizzle-orm/sqlite-core";
+import { int, real, sqliteTable, text, unique } from "drizzle-orm/sqlite-core";
 import { createInsertSchema, createSelectSchema } from "drizzle-zod";
 
 import { user } from "./auth";
@@ -18,7 +18,9 @@ export const location = sqliteTable("location", {
     .notNull()
     .$default(() => Date.now())
     .$onUpdate(() => Date.now()),
-});
+}, t => [
+  unique().on(t.name, t.userId),
+]);
 
 export const LocationSchema = createSelectSchema(location);
 export const InsertLocationSchema = createInsertSchema(location, {
