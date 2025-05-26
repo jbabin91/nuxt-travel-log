@@ -31,7 +31,7 @@ importers:
         version: 4.15.0(magicast@0.3.5)(vue@3.5.14(typescript@5.8.3))
       '@vee-validate/zod':
         specifier: ^4.15.0
-        version: 4.15.0(vue@3.5.14(typescript@5.8.3))(zod@3.25.23)
+        version: 4.15.0(vue@3.5.14(typescript@5.8.3))(zod@3.25.28)
       better-auth:
         specifier: ^1.2.8
         version: 1.2.8
@@ -40,7 +40,7 @@ importers:
         version: 0.43.1(@libsql/client@0.15.7)(kysely@0.28.2)
       drizzle-zod:
         specifier: ^0.8.2
-        version: 0.8.2(drizzle-orm@0.43.1(@libsql/client@0.15.7)(kysely@0.28.2))(zod@3.25.23)
+        version: 0.8.2(drizzle-orm@0.43.1(@libsql/client@0.15.7)(kysely@0.28.2))(zod@3.25.28)
       eslint:
         specifier: ^9.27.0
         version: 9.27.0(jiti@2.4.2)
@@ -72,8 +72,8 @@ importers:
         specifier: ^4.5.1
         version: 4.5.1(vue@3.5.14(typescript@5.8.3))
       zod:
-        specifier: ^3.25.23
-        version: 3.25.23
+        specifier: ^3.25.28
+        version: 3.25.28
     devDependencies:
       '@antfu/eslint-config':
         specifier: ^4.13.2
@@ -5801,8 +5801,8 @@ packages:
     resolution: {integrity: sha512-zK7YHHz4ZXpW89AHXUPbQVGKI7uvkd3hzusTdotCg1UxyaVtg0zFJSTfW/Dq5f7OBBVnq6cZIaC8Ti4hb6dtCA==}
     engines: {node: '>= 14'}
 
-  zod@3.25.23:
-    resolution: {integrity: sha512-Od2bdMosahjSrSgJtakrwjMDb1zM1A3VIHCPGveZt/3/wlrTWBya2lmEh2OYe4OIu8mPTmmr0gnLHIWQXdtWBg==}
+  zod@3.25.28:
+    resolution: {integrity: sha512-/nt/67WYKnr5by3YS7LroZJbtcCBurDKKPBPWWzaxvVCGuG/NOsiKkrjoOhI8mJ+SQUXEbUzeB3S+6XDUEEj7Q==}
 
   zwitch@2.0.4:
     resolution: {integrity: sha512-bXE4cR/kVZhKZX/RjPEflHaKVhUVl85noU3v6b8apfQEc1x4A+zBxjZ4lN8LqGd6WZ3dl98pY4o717VFmoPp+A==}
@@ -6671,7 +6671,7 @@ snapshots:
       unixify: 1.0.0
       urlpattern-polyfill: 8.0.2
       yargs: 17.7.2
-      zod: 3.25.23
+      zod: 3.25.28
     transitivePeerDependencies:
       - encoding
       - rollup
@@ -7647,11 +7647,11 @@ snapshots:
       - magicast
       - vue
 
-  '@vee-validate/zod@4.15.0(vue@3.5.14(typescript@5.8.3))(zod@3.25.23)':
+  '@vee-validate/zod@4.15.0(vue@3.5.14(typescript@5.8.3))(zod@3.25.28)':
     dependencies:
       type-fest: 4.41.0
       vee-validate: 4.15.0(vue@3.5.14(typescript@5.8.3))
-      zod: 3.25.23
+      zod: 3.25.28
     transitivePeerDependencies:
       - vue
 
@@ -8053,7 +8053,7 @@ snapshots:
       jose: 5.10.0
       kysely: 0.28.2
       nanostores: 0.11.4
-      zod: 3.25.23
+      zod: 3.25.28
 
   better-call@1.0.9:
     dependencies:
@@ -8590,10 +8590,10 @@ snapshots:
       '@libsql/client': 0.15.7
       kysely: 0.28.2
 
-  drizzle-zod@0.8.2(drizzle-orm@0.43.1(@libsql/client@0.15.7)(kysely@0.28.2))(zod@3.25.23):
+  drizzle-zod@0.8.2(drizzle-orm@0.43.1(@libsql/client@0.15.7)(kysely@0.28.2))(zod@3.25.28):
     dependencies:
       drizzle-orm: 0.43.1(@libsql/client@0.15.7)(kysely@0.28.2)
-      zod: 3.25.23
+      zod: 3.25.28
 
   dunder-proto@1.0.1:
     dependencies:
@@ -12192,6 +12192,6 @@ snapshots:
       compress-commons: 6.0.2
       readable-stream: 4.7.0
 
-  zod@3.25.23: {}
+  zod@3.25.28: {}
 
   zwitch@2.0.4: {}
