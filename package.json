@@ -22,7 +22,7 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@indoorequal/vue-maplibre-gl": "^8.3.0",
+    "@indoorequal/vue-maplibre-gl": "^8.4.0",
     "@libsql/client": "^0.15.7",
     "@nuxt/eslint": "1.4.1",
     "@nuxt/icon": "1.10.3",
