@@ -27,8 +27,8 @@ importers:
         specifier: 0.11.1
         version: 0.11.1(magicast@0.3.5)(pinia@3.0.2(typescript@5.8.3)(vue@3.5.16(typescript@5.8.3)))
       '@vee-validate/nuxt':
-        specifier: ^4.15.0
-        version: 4.15.0(magicast@0.3.5)(vue@3.5.16(typescript@5.8.3))
+        specifier: ^4.15.1
+        version: 4.15.1(magicast@0.3.5)(vue@3.5.16(typescript@5.8.3))
       '@vee-validate/zod':
         specifier: ^4.15.0
         version: 4.15.0(vue@3.5.16(typescript@5.8.3))(zod@3.25.44)
@@ -1926,8 +1926,8 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@vee-validate/nuxt@4.15.0':
-    resolution: {integrity: sha512-AhQHPLxH4tTf35op+ifkBhnnRwv/EzT8Fi9PQlEwKyLGZgepFQO1qTm6IyaA6aoSKcFWHz3R3hyMrMQdXbiOxQ==}
+  '@vee-validate/nuxt@4.15.1':
+    resolution: {integrity: sha512-vy+BYUmwy7d01js8jg3qApyrE8/nJHbHvPZNYZSe+hTQEblNqyVt+MnD1incyxMCcivED8FX5w4rjxdoUn7iMQ==}
 
   '@vee-validate/zod@4.15.0':
     resolution: {integrity: sha512-MpvIKiyg9X5yD8bJW0no2AU7wtR2T5mrvD9tuPRiie951sU2n6QKgMV38qKKOiqFBCxsMSjIuLLLV3V5kVE4nQ==}
@@ -5506,6 +5506,11 @@ packages:
     peerDependencies:
       vue: ^3.4.26
 
+  vee-validate@4.15.1:
+    resolution: {integrity: sha512-DkFsiTwEKau8VIxyZBGdO6tOudD+QoUBPuHj3e6QFqmbfCRj1ArmYWue9lEp6jLSWBIw4XPlDLjFIZNLdRAMSg==}
+    peerDependencies:
+      vue: ^3.4.26
+
   vite-dev-rpc@1.0.7:
     resolution: {integrity: sha512-FxSTEofDbUi2XXujCA+hdzCDkXFG1PXktMjSk1efq9Qb5lOYaaM9zNSvKvPPF7645Bak79kSp1PTooMW2wktcA==}
     peerDependencies:
@@ -7671,11 +7676,11 @@ snapshots:
   '@unrs/resolver-binding-win32-x64-msvc@1.7.8':
     optional: true
 
-  '@vee-validate/nuxt@4.15.0(magicast@0.3.5)(vue@3.5.16(typescript@5.8.3))':
+  '@vee-validate/nuxt@4.15.1(magicast@0.3.5)(vue@3.5.16(typescript@5.8.3))':
     dependencies:
       '@nuxt/kit': 3.17.4(magicast@0.3.5)
       local-pkg: 0.5.1
-      vee-validate: 4.15.0(vue@3.5.16(typescript@5.8.3))
+      vee-validate: 4.15.1(vue@3.5.16(typescript@5.8.3))
     transitivePeerDependencies:
       - magicast
       - vue
@@ -11764,6 +11769,12 @@ snapshots:
   validate-npm-package-name@6.0.0: {}
 
   vee-validate@4.15.0(vue@3.5.16(typescript@5.8.3)):
+    dependencies:
+      '@vue/devtools-api': 7.7.6
+      type-fest: 4.41.0
+      vue: 3.5.16(typescript@5.8.3)
+
+  vee-validate@4.15.1(vue@3.5.16(typescript@5.8.3)):
     dependencies:
       '@vue/devtools-api': 7.7.6
       type-fest: 4.41.0
