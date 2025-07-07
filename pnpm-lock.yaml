@@ -88,7 +88,7 @@ importers:
         specifier: ^5.0.9
         version: 5.0.9
       concurrently:
-        specifier: ^9.1.2
+        specifier: ^9.2.0
         version: 9.2.0
       daisyui:
         specifier: ^5.0.43
