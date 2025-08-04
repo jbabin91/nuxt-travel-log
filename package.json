@@ -46,7 +46,7 @@
     "zod": "^3.25.28"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^4.16.2",
+    "@antfu/eslint-config": "^4.19.0",
     "@iconify-json/tabler": "^1.2.20",
     "@tailwindcss/vite": "^4.1.7",
     "@types/slug": "^5.0.9",
