@@ -91,7 +91,7 @@ importers:
         specifier: ^9.2.0
         version: 9.2.0
       daisyui:
-        specifier: ^5.0.48
+        specifier: ^5.0.50
         version: 5.0.50
       drizzle-kit:
         specifier: ^0.31.4
