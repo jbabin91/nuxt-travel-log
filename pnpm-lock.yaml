@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@indoorequal/vue-maplibre-gl':
-        specifier: ^8.4.1
-        version: 8.4.1(maplibre-gl@5.6.1)(vue@3.5.18(typescript@5.9.2))
+        specifier: ^8.4.2
+        version: 8.4.2(maplibre-gl@5.6.1)(vue@3.5.18(typescript@5.9.2))
       '@libsql/client':
         specifier: ^0.15.11
         version: 0.15.11
@@ -932,8 +932,8 @@ packages:
     peerDependencies:
       vue: '>=3'
 
-  '@indoorequal/vue-maplibre-gl@8.4.1':
-    resolution: {integrity: sha512-K8tu+/RuRH0XkwDMzPERsn34q0QwSE99BqR2fkPMq7k/HrXY9xp9nrjAHra+sDVAAVLV1hgk4l3bnh0/i6UPMA==}
+  '@indoorequal/vue-maplibre-gl@8.4.2':
+    resolution: {integrity: sha512-oPSO37a5PrjG2PiYqnQmpaOHcwqZA1LaoQ3Pma/Mljt6zD9fE7fyS98TGznQezEXxBtrutjlNenmFC43zQULeA==}
     engines: {node: '>=18'}
     peerDependencies:
       maplibre-gl: ^5.0.0
@@ -6768,7 +6768,7 @@ snapshots:
       '@iconify/types': 2.0.0
       vue: 3.5.18(typescript@5.9.2)
 
-  '@indoorequal/vue-maplibre-gl@8.4.1(maplibre-gl@5.6.1)(vue@3.5.18(typescript@5.9.2))':
+  '@indoorequal/vue-maplibre-gl@8.4.2(maplibre-gl@5.6.1)(vue@3.5.18(typescript@5.9.2))':
     dependencies:
       maplibre-gl: 5.6.1
       vue: 3.5.18(typescript@5.9.2)
@@ -10907,7 +10907,7 @@ snapshots:
 
   nuxt-maplibre@1.1.1(vue@3.5.18(typescript@5.9.2)):
     dependencies:
-      '@indoorequal/vue-maplibre-gl': 8.4.1(maplibre-gl@5.6.1)(vue@3.5.18(typescript@5.9.2))
+      '@indoorequal/vue-maplibre-gl': 8.4.2(maplibre-gl@5.6.1)(vue@3.5.18(typescript@5.9.2))
       maplibre-gl: 5.6.1
     transitivePeerDependencies:
       - vue
