@@ -94,7 +94,7 @@ importers:
         specifier: ^5.1.27
         version: 5.1.27
       drizzle-kit:
-        specifier: ^0.31.4
+        specifier: ^0.31.5
         version: 0.31.5
       eslint-plugin-format:
         specifier: ^1.0.1
