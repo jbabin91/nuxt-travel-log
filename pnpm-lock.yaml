@@ -48,7 +48,7 @@ importers:
         specifier: ^5.5.0
         version: 5.10.0
       nanoid:
-        specifier: ^5.1.5
+        specifier: ^5.1.6
         version: 5.1.6
       nuxt:
         specifier: ^3.17.4
