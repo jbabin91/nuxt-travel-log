@@ -42,7 +42,7 @@
     "pinia": "^3.0.4",
     "slug": "^11.0.1",
     "vue": "^3.5.26",
-    "vue-router": "^4.5.1",
+    "vue-router": "^4.6.4",
     "zod": "^3.25.28"
   },
   "devDependencies": {
