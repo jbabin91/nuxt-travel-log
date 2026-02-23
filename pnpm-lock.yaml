@@ -91,8 +91,8 @@ importers:
         specifier: ^9.2.1
         version: 9.2.1
       daisyui:
-        specifier: ^5.5.18
-        version: 5.5.18
+        specifier: ^5.5.19
+        version: 5.5.19
       drizzle-kit:
         specifier: ^0.31.9
         version: 0.31.9
@@ -2849,8 +2849,8 @@ packages:
   csstype@3.2.3:
     resolution: {integrity: sha512-z1HGKcYy2xA8AGQfwrn0PAy+PB7X/GSj3UVJW9qKyn43xWa+gl5nXmU4qqLMRzWVLFC8KusUX8T/0kCiOYpAIQ==}
 
-  daisyui@5.5.18:
-    resolution: {integrity: sha512-VVzjpOitMGB6DWIBeRSapbjdOevFqyzpk9u5Um6a4tyId3JFrU5pbtF0vgjXDth76mJZbueN/j9Ok03SPrh/og==}
+  daisyui@5.5.19:
+    resolution: {integrity: sha512-pbFAkl1VCEh/MPCeclKL61I/MqRIFFhNU7yiXoDDRapXN4/qNCoMxeCCswyxEEhqL5eiTTfwHvucFtOE71C9sA==}
 
   data-uri-to-buffer@4.0.1:
     resolution: {integrity: sha512-0R9ikRb668HB7QDxT1vkpuUBtqc53YyAwMwGeUFKRojY/NWKvdZ+9UYtRfGmhqNbRkTSVpMbmyhXipFFv2cb/A==}
@@ -8546,7 +8546,7 @@ snapshots:
 
   csstype@3.2.3: {}
 
-  daisyui@5.5.18: {}
+  daisyui@5.5.19: {}
 
   data-uri-to-buffer@4.0.1: {}
 
