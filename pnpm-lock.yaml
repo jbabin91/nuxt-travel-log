@@ -10,7 +10,7 @@ importers:
     dependencies:
       '@indoorequal/vue-maplibre-gl':
         specifier: ^8.4.2
-        version: 8.4.2(maplibre-gl@5.22.0)(vue@3.5.32(typescript@5.9.3))
+        version: 8.4.2(maplibre-gl@5.23.0)(vue@3.5.32(typescript@5.9.3))
       '@libsql/client':
         specifier: ^0.17.2
         version: 0.17.2
@@ -45,8 +45,8 @@ importers:
         specifier: ^9.39.4
         version: 9.39.4(jiti@2.6.1)
       maplibre-gl:
-        specifier: ^5.17.0
-        version: 5.22.0
+        specifier: ^5.23.0
+        version: 5.23.0
       nanoid:
         specifier: ^5.1.7
         version: 5.1.7
@@ -1156,8 +1156,8 @@ packages:
   '@maplibre/geojson-vt@5.0.4':
     resolution: {integrity: sha512-KGg9sma45S+stfH9vPCJk1J0lSDLWZgCT9Y8u8qWZJyjFlP8MNP1WGTxIMYJZjDvVT3PDn05kN1C95Sut1HpgQ==}
 
-  '@maplibre/geojson-vt@6.0.4':
-    resolution: {integrity: sha512-HYv3POhMRCdhP3UPPATM/hfcy6/WuVIf5FKboH8u/ZuFMTnAIcSVlq5nfOqroLokd925w2QtE7YwquFOIacwVQ==}
+  '@maplibre/geojson-vt@6.1.0':
+    resolution: {integrity: sha512-2eIY4gZxeKIVOZVNkAMb+5NgXhgsMQpOveTQAvnp53LYqHGJZDidk7Ew0Tged9PThidpbS+NFTh0g4zivhPDzQ==}
 
   '@maplibre/maplibre-gl-style-spec@24.8.1':
     resolution: {integrity: sha512-zxa92qF96ZNojLxeAjnaRpjVCy+swoUNJvDhtpC90k7u5F0TMr4GmvNqMKvYrMoPB8d7gRSXbMG1hBbmgESIsw==}
@@ -4410,8 +4410,8 @@ packages:
   magicast@0.5.2:
     resolution: {integrity: sha512-E3ZJh4J3S9KfwdjZhe2afj6R9lGIN5Pher1pF39UGrXRqq/VDaGVIGN13BjHd2u8B61hArAGOnso7nBOouW3TQ==}
 
-  maplibre-gl@5.22.0:
-    resolution: {integrity: sha512-nc8YA+YSEioMZg5W0cb6Cf3wQ8aJge66dsttyBgpOArOnlmFJO1Kc5G32kYVPeUYhLpBja83T99uanmJvYAIyQ==}
+  maplibre-gl@5.23.0:
+    resolution: {integrity: sha512-aou8YBNFS8uVtDWFWt0W/6oorfl18wt+oIA8fnXk1kivjkbtXi9gGrQvflTpwrR3hG13aWdIdbYWeN0NFMV7ag==}
     engines: {node: '>=16.14.0', npm: '>=8.1.0'}
 
   markdown-table@3.0.4:
@@ -6864,9 +6864,9 @@ snapshots:
       '@iconify/types': 2.0.0
       vue: 3.5.32(typescript@5.9.3)
 
-  '@indoorequal/vue-maplibre-gl@8.4.2(maplibre-gl@5.22.0)(vue@3.5.32(typescript@5.9.3))':
+  '@indoorequal/vue-maplibre-gl@8.4.2(maplibre-gl@5.23.0)(vue@3.5.32(typescript@5.9.3))':
     dependencies:
-      maplibre-gl: 5.22.0
+      maplibre-gl: 5.23.0
       vue: 3.5.32(typescript@5.9.3)
 
   '@ioredis/commands@1.5.1': {}
@@ -7009,7 +7009,7 @@ snapshots:
 
   '@maplibre/geojson-vt@5.0.4': {}
 
-  '@maplibre/geojson-vt@6.0.4':
+  '@maplibre/geojson-vt@6.1.0':
     dependencies:
       kdbush: 4.0.2
 
@@ -10306,7 +10306,7 @@ snapshots:
       '@babel/types': 7.29.0
       source-map-js: 1.2.1
 
-  maplibre-gl@5.22.0:
+  maplibre-gl@5.23.0:
     dependencies:
       '@mapbox/jsonlint-lines-primitives': 2.0.2
       '@mapbox/point-geometry': 1.1.0
@@ -10314,7 +10314,7 @@ snapshots:
       '@mapbox/unitbezier': 0.0.1
       '@mapbox/vector-tile': 2.0.4
       '@mapbox/whoots-js': 3.1.0
-      '@maplibre/geojson-vt': 6.0.4
+      '@maplibre/geojson-vt': 6.1.0
       '@maplibre/maplibre-gl-style-spec': 24.8.1
       '@maplibre/mlt': 1.1.8
       '@maplibre/vt-pbf': 4.3.0
@@ -10880,8 +10880,8 @@ snapshots:
 
   nuxt-maplibre@1.1.1(vue@3.5.32(typescript@5.9.3)):
     dependencies:
-      '@indoorequal/vue-maplibre-gl': 8.4.2(maplibre-gl@5.22.0)(vue@3.5.32(typescript@5.9.3))
-      maplibre-gl: 5.22.0
+      '@indoorequal/vue-maplibre-gl': 8.4.2(maplibre-gl@5.23.0)(vue@3.5.32(typescript@5.9.3))
+      maplibre-gl: 5.23.0
     transitivePeerDependencies:
       - vue
 
