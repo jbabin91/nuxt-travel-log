@@ -18,6 +18,10 @@ logs
 .fleet
 .idea
 
+# Local tooling state
+.claude/.review-mark
+.claude/.no-review-gate
+
 # Local env files
 .env*
 !.env.example
