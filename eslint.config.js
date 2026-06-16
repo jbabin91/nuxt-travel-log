@@ -39,10 +39,14 @@ export default withNuxt(
         "antfu/no-top-level-await": ["off"],
         "node/prefer-global/process": ["off"],
         "node/no-process-env": ["error"],
+        // trustPolicy: no-downgrade flags chokidar/semver as takeovers and breaks install
+        "pnpm/yaml-enforce-settings": ["off"],
         "perfectionist/sort-imports": [
           "error",
           {
-            tsconfigRootDir: ".",
+            tsconfig: {
+              rootDir: ".",
+            },
           },
         ],
         "unicorn/filename-case": [

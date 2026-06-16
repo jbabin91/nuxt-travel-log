@@ -1,5 +1,8 @@
-onlyBuiltDependencies:
-  - "@parcel/watcher"
-  - "@tailwindcss/oxide"
-  - esbuild
-  - unrs-resolver
+allowBuilds:
+  "@parcel/watcher": true
+  "@tailwindcss/oxide": true
+  esbuild: true
+  unrs-resolver: true
+minimumReleaseAgeExclude:
+  - "@typescript-eslint/*"
+  - eslint-plugin-perfectionist
