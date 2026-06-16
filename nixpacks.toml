@@ -1,6 +1,16 @@
-# Coolify's Nixpacks pins corepack@0.24.1, which cannot launch pnpm 11 on Node 24
-# (ERR_VM_DYNAMIC_IMPORT_CALLBACK_MISSING). Install the pinned pnpm directly instead.
-# Keep the pnpm version in sync with package.json's "packageManager" field.
+# Coolify's Nixpacks installs pnpm 9 via nix (pnpm-9_x) and pins corepack@0.24.1.
+# Corepack 0.24.1 can't launch pnpm 11 on Node 24 (ERR_VM_DYNAMIC_IMPORT_CALLBACK_MISSING),
+# and nix's pnpm 9 shadows any pnpm we add and rejects our settings-only pnpm-workspace.yaml
+# ("packages field missing or empty"). Drop the nix pnpm (setup nixPkgs replaces the auto
+# list per Nixpacks merge rules) and install the pinned pnpm via npm so every phase uses it.
+# nodejs_24 tracks the Node 24 major only (nix can't pin .nvmrc's exact 24.16.0);
+# keep the pnpm version here in sync with package.json's "packageManager" field.
+[phases.setup]
+nixPkgs = [
+  "nodejs_24",
+  "openssl"
+]
+
 [phases.install]
 cmds = [
   "npm install -g pnpm@11.7.0",
