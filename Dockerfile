@@ -9,6 +9,11 @@ FROM node:24-slim
 
 WORKDIR /app
 
+# curl is needed for Coolify's in-container health check (node:24-slim ships neither curl nor wget).
+RUN apt-get update \
+  && apt-get install -y --no-install-recommends curl \
+  && rm -rf /var/lib/apt/lists/*
+
 # Match package.json's "packageManager" pin.
 RUN npm install -g pnpm@11.7.0
 
