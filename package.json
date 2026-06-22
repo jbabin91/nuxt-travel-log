@@ -23,7 +23,7 @@
   },
   "dependencies": {
     "@indoorequal/vue-maplibre-gl": "^8.4.2",
-    "@libsql/client": "^0.17.3",
+    "@libsql/client": "^0.17.4",
     "@nuxt/eslint": "1.16.0",
     "@nuxt/icon": "2.2.3",
     "@nuxtjs/color-mode": "4.0.1",
