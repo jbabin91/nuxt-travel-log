@@ -54,8 +54,8 @@ importers:
         specifier: ^4.5.2
         version: 4.5.2(257e8660440bff25143dabad0d8ef686)
       nuxt-csurf:
-        specifier: 1.6.5
-        version: 1.6.5(magicast@0.5.4)
+        specifier: 1.6.6
+        version: 1.6.6(magic-string@1.2.2)(magicast@0.5.4)(oxc-parser@0.140.0)(rolldown@1.2.1)(unplugin@3.3.0(esbuild@0.28.1)(rolldown@1.2.1)(rollup@4.62.3)(vite@8.2.0(@types/node@26.1.2)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.49.0)(tsx@4.23.1)(yaml@2.9.0)))
       nuxt-maplibre:
         specifier: 1.2.2
         version: 1.2.2(vue@3.5.40(typescript@6.0.3))
@@ -4647,8 +4647,8 @@ packages:
   nth-check@2.1.1:
     resolution: {integrity: sha512-lqjrjmaOoAnWfMmBPL+XNnynZh2+swxiX3WUE0s4yEHI6m+AwrK2UZOimIRl3X/4QctVqS8AiZjFqyOGrMXb/w==}
 
-  nuxt-csurf@1.6.5:
-    resolution: {integrity: sha512-/DMNTON8LIVhntamKbBmAuM879B0QnuSJa7ZAkmkZe+21m+1QGcjVUxtSkizaM48NUvkuAGYOG0ncn+kqEgrzw==}
+  nuxt-csurf@1.6.6:
+    resolution: {integrity: sha512-T2WTlZQeTuoLCtoRJVlpBABEEx5vNPzHjIow/7BoQqoZ6S7YYYXAT1smKv7t6uvDfK7BZDhfLPQHDomUplg1Sw==}
 
   nuxt-maplibre@1.2.2:
     resolution: {integrity: sha512-CjUhG6QIHANLNQBOD8Tp6VRyb67+o96ODbEZ6LT/e6ZyW0TjA9qsCuG0qIX6klCrK5jU97Or5t9qXbE9bBaEzQ==}
@@ -10826,13 +10826,17 @@ snapshots:
     dependencies:
       boolbase: 1.0.0
 
-  nuxt-csurf@1.6.5(magicast@0.5.4):
+  nuxt-csurf@1.6.6(magic-string@1.2.2)(magicast@0.5.4)(oxc-parser@0.140.0)(rolldown@1.2.1)(unplugin@3.3.0(esbuild@0.28.1)(rolldown@1.2.1)(rollup@4.62.3)(vite@8.2.0(@types/node@26.1.2)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.49.0)(tsx@4.23.1)(yaml@2.9.0))):
     dependencies:
-      '@nuxt/kit': 3.21.10(magicast@0.5.4)
+      '@nuxt/kit': 4.5.2(magic-string@1.2.2)(magicast@0.5.4)(oxc-parser@0.140.0)(rolldown@1.2.1)(unplugin@3.3.0(esbuild@0.28.1)(rolldown@1.2.1)(rollup@4.62.3)(vite@8.2.0(@types/node@26.1.2)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.49.0)(tsx@4.23.1)(yaml@2.9.0)))
       defu: 6.1.7
       uncsrf: 1.2.0
     transitivePeerDependencies:
+      - magic-string
       - magicast
+      - oxc-parser
+      - rolldown
+      - unplugin
 
   nuxt-maplibre@1.2.2(vue@3.5.40(typescript@6.0.3)):
     dependencies:
