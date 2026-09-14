@@ -100,8 +100,8 @@ importers:
         specifier: ^2.0.1
         version: 2.0.1(eslint@10.9.1(jiti@2.7.0))
       eslint-plugin-package-json:
-        specifier: ^1.8.0
-        version: 1.8.0(eslint@10.9.1(jiti@2.7.0))
+        specifier: ^1.8.1
+        version: 1.8.1(eslint@10.9.1(jiti@2.7.0))
       eslint-plugin-vuejs-accessibility:
         specifier: ^2.5.0
         version: 2.6.0(eslint@10.9.1(jiti@2.7.0))(globals@17.11.0)
@@ -3255,8 +3255,8 @@ packages:
     resolution: {integrity: sha512-4S3/9Nb7A2tiMcpzEQE9bQSlpeOz6WJkgryBuou/SA8W2x2c8Zf4j0NvTKBjv6qNhF9T79tmkecm/0CHqV0UGg==}
     engines: {node: '>=5.0.0'}
 
-  eslint-plugin-package-json@1.8.0:
-    resolution: {integrity: sha512-nfWWrak5t8yPgSVchNOHCjdFW/pl3+1135Bxsq0KZKo6PUdWWqUTqOVBrvzw1S+8BNOhhEx5c/YxeeCSYySFog==}
+  eslint-plugin-package-json@1.8.1:
+    resolution: {integrity: sha512-/Adb7EHfwIM2t13zdBuB6IjIsNSDkbPT+T9ZlIK0N6aAnj9hiekqFlFbUpEIsiQX4Zv7bASBDP2C3hu362e2kw==}
     engines: {node: ^22.22.2 || >=24.15.0}
     peerDependencies:
       '@eslint/json': '>=1.0.0'
@@ -8915,7 +8915,7 @@ snapshots:
 
   eslint-plugin-no-only-tests@3.4.0: {}
 
-  eslint-plugin-package-json@1.8.0(eslint@10.9.1(jiti@2.7.0)):
+  eslint-plugin-package-json@1.8.1(eslint@10.9.1(jiti@2.7.0)):
     dependencies:
       '@altano/repository-tools': 2.1.1
       '@types/estree': 1.0.9
