@@ -47,7 +47,7 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "^9.5.1",
-    "@iconify-json/tabler": "^1.2.40",
+    "@iconify-json/tabler": "^1.2.41",
     "@tailwindcss/vite": "^4.3.1",
     "@types/slug": "^5.0.9",
     "concurrently": "^10.0.5",
