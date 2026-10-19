@@ -91,8 +91,8 @@ importers:
         specifier: ^10.0.6
         version: 10.0.6
       daisyui:
-        specifier: ^5.7.46
-        version: 5.7.47
+        specifier: ^5.7.50
+        version: 5.7.50
       drizzle-kit:
         specifier: ^0.31.10
         version: 0.31.11
@@ -2845,8 +2845,8 @@ packages:
   csstype@3.2.3:
     resolution: {integrity: sha512-z1HGKcYy2xA8AGQfwrn0PAy+PB7X/GSj3UVJW9qKyn43xWa+gl5nXmU4qqLMRzWVLFC8KusUX8T/0kCiOYpAIQ==}
 
-  daisyui@5.7.47:
-    resolution: {integrity: sha512-NOl4vPifelRqB3CMzoU751zc44KCDD9HdHMTTqQ30uiYVpIyK7+s94/ySDWgYqjdl1tQCaCrgGBx4KCizm+a3Q==}
+  daisyui@5.7.50:
+    resolution: {integrity: sha512-+/LRqnTCoc7s/bJEKKwtJSwzeXCVdAmRdNmZeZzgHCaQ9PJyl7j+2V2U32GQDMyD+VDkP9e/+JGoC72Y1hLk7w==}
 
   db0@0.3.4:
     resolution: {integrity: sha512-RiXXi4WaNzPTHEOu8UPQKMooIbqOEyqA1t7Z6MsdxSCeb8iUC9ko3LcmsLmeUt2SM5bctfArZKkRQggKZz7JNw==}
@@ -8693,7 +8693,7 @@ snapshots:
 
   csstype@3.2.3: {}
 
-  daisyui@5.7.47: {}
+  daisyui@5.7.50: {}
 
   db0@0.3.4(@libsql/client@0.17.4)(drizzle-orm@0.45.3(@libsql/client@0.17.4)(@opentelemetry/api@1.9.1)(kysely@0.28.17)):
     optionalDependencies:
