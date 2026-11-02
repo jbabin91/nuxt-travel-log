@@ -42,7 +42,7 @@ importers:
         specifier: ^0.8.3
         version: 0.8.3(drizzle-orm@0.45.4(@libsql/client@0.17.4)(@opentelemetry/api@1.10.0)(kysely@0.28.18))(zod@3.25.76)
       eslint:
-        specifier: ^10.8.1
+        specifier: ^10.14.0
         version: 10.14.0(jiti@2.7.0)
       maplibre-gl:
         specifier: ^5.24.0
