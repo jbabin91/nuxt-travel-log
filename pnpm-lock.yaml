@@ -10,7 +10,7 @@ importers:
     dependencies:
       '@indoorequal/vue-maplibre-gl':
         specifier: ^8.4.2
-        version: 8.4.2(maplibre-gl@5.24.0)(vue@3.5.44(typescript@6.0.3))
+        version: 8.4.2(maplibre-gl@5.24.1)(vue@3.5.44(typescript@6.0.3))
       '@libsql/client':
         specifier: ^0.17.4
         version: 0.17.4
@@ -45,8 +45,8 @@ importers:
         specifier: ^10.14.0
         version: 10.14.0(jiti@2.7.0)
       maplibre-gl:
-        specifier: ^5.24.0
-        version: 5.24.0
+        specifier: ^5.24.1
+        version: 5.24.1
       nanoid:
         specifier: ^5.1.16
         version: 5.1.16
@@ -4237,8 +4237,8 @@ packages:
     resolution: {integrity: sha512-ayF7iT+44LXdxJLTrTd3TLQpFDDvPCBxXxbv+pMUSuHA5Q8zyAfwkRP6aHHwNVFBUFWtxAHqwNJxF8vMZLAbVg==}
     engines: {node: '>=18'}
 
-  maplibre-gl@5.24.0:
-    resolution: {integrity: sha512-ALyFxgtd5R+65UqZ/++lOqwWcC0SNho9c27fYSyLmG7AfnAul2o46F05aDJGPbFU57wos9dgcIySHs0Xe6ia3A==}
+  maplibre-gl@5.24.1:
+    resolution: {integrity: sha512-HyiYBwtsbk3L1n1EPLJHWqdoyMiF80n7tEYXFZyu2m1TjvaNx6KMLiFeDdmszt1/mq2zvsR1TJuX/NMu5BonXQ==}
     engines: {node: '>=16.14.0', npm: '>=8.1.0'}
 
   markdown-table@3.0.4:
@@ -6634,9 +6634,9 @@ snapshots:
       '@iconify/types': 2.0.0
       vue: 3.5.44(typescript@6.0.3)
 
-  '@indoorequal/vue-maplibre-gl@8.4.2(maplibre-gl@5.24.0)(vue@3.5.44(typescript@6.0.3))':
+  '@indoorequal/vue-maplibre-gl@8.4.2(maplibre-gl@5.24.1)(vue@3.5.44(typescript@6.0.3))':
     dependencies:
-      maplibre-gl: 5.24.0
+      maplibre-gl: 5.24.1
       vue: 3.5.44(typescript@6.0.3)
 
   '@ioredis/commands@1.10.0': {}
@@ -9905,7 +9905,7 @@ snapshots:
       type-fest: 4.41.0
       web-worker: 1.5.0
 
-  maplibre-gl@5.24.0:
+  maplibre-gl@5.24.1:
     dependencies:
       '@mapbox/jsonlint-lines-primitives': 2.0.3
       '@mapbox/point-geometry': 1.1.0
@@ -10530,8 +10530,8 @@ snapshots:
 
   nuxt-maplibre@1.2.2(vue@3.5.44(typescript@6.0.3)):
     dependencies:
-      '@indoorequal/vue-maplibre-gl': 8.4.2(maplibre-gl@5.24.0)(vue@3.5.44(typescript@6.0.3))
-      maplibre-gl: 5.24.0
+      '@indoorequal/vue-maplibre-gl': 8.4.2(maplibre-gl@5.24.1)(vue@3.5.44(typescript@6.0.3))
+      maplibre-gl: 5.24.1
     transitivePeerDependencies:
       - vue
 
