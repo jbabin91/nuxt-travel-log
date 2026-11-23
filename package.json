@@ -34,7 +34,7 @@
     "drizzle-orm": "^0.45.4",
     "drizzle-zod": "^0.8.3",
     "eslint": "^10.14.0",
-    "maplibre-gl": "^5.24.0",
+    "maplibre-gl": "^5.24.1",
     "nanoid": "^5.1.16",
     "nuxt": "^4.5.2",
     "nuxt-csurf": "1.6.6",
